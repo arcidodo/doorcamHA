@@ -48,13 +48,10 @@ Tile {
                 haURl2 += "/api/states/"
                 haURl2 += app.haEntity_id
 
-                //var haURl2 = "http://10.0.102.100:8123/api/states/input_number.showdoorcamtoon"
-
                 doc.open("GET", haURl2, true);
-
                 doc.setRequestHeader("Authorization", "Bearer " + app.haToken);
                 doc.setRequestHeader("Content-Type", "application/json");
-        	doc.send();
+        	      doc.send();
 
    	 }
 
