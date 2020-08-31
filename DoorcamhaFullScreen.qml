@@ -3,7 +3,7 @@ import qb.components 1.0
 
 Screen {
 	id: doorcamhaFullScreen
-	screenTitle: "Doorcamha";
+	screenTitle: "Doorcam";
 
 	onCustomButtonClicked: {
 		if (app.doorcamhaConfigScreen) {

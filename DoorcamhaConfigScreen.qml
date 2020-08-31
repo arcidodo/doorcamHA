@@ -3,7 +3,7 @@ import qb.components 1.0
 
 Screen {
 	id: doorcamhaConfigScreen
-	screenTitle: "Doorcamha app Setup"
+	screenTitle: "Doorcam app Setup"
 
 	onShown: {
 		doorcamhaImageURL1.inputText = app.doorcamhaImageURL1;
@@ -58,8 +58,8 @@ Screen {
 		id: doorcamhaImageURL1
 		width: parent.width - 40
 		height: 35
-		leftTextAvailableWidth: 300
-		leftText: "URL doorcamha image"
+		leftTextAvailableWidth: 100
+		leftText: "Cam URL"
 
 		anchors {
 			left: parent.left
@@ -90,8 +90,8 @@ Screen {
 		id: haURL1
 		width: parent.width - 40
 		height: 35
-		leftTextAvailableWidth: 300
-		leftText: "URL"
+		leftTextAvailableWidth: 100
+		leftText: "HA URL"
 
 		anchors {
 			left: parent.left
@@ -120,7 +120,7 @@ Screen {
 		id: haEntity_id
 		width: parent.width - 40
 		height: 35
-		leftTextAvailableWidth: 300
+		leftTextAvailableWidth: 100
 		leftText: "Entity_id"
 		anchors {
 			left: parent.left
@@ -149,7 +149,7 @@ Screen {
 		id: haToken
 		width: parent.width - 40
 		height: 35
-		leftTextAvailableWidth: 300
+		leftTextAvailableWidth: 100
 		leftText: "Token"
 		anchors {
 			left: parent.left
