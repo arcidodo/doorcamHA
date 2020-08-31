@@ -1,0 +1,2 @@
+Version 1.0.0
+- First edition of the "doorcam" app. This app loads a jpg file every 1 seconds from a http URL when the app is trigered from the tile or from Home Assistant.
